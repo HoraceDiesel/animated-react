@@ -1,0 +1,76 @@
+body, .container, #app {
+  height: 100vh;
+  width: 100vw;
+}
+
+body, h3, h4, p {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav.top {
+  align-items: center;
+  background-color: #F8A88B;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+}
+
+nav.top h3 {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.block-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-push-layout {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #252F30;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  width: 25%;
+}
+
+.floating-button {
+  align-items: center;
+  background-color: azure;
+  border-radius: 50%;
+  box-shadow: 5px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-size: .8em;
+  height: 45px;
+  justify-content: center;
+  margin-left: .2em;
+  margin-top: .2em;
+  position: absolute;
+  width: 45px;
+}
